@@ -1,0 +1,77 @@
+{
+  "timing": {
+    "charDelay": [
+      50,
+      150
+    ],
+    "wordDelay": [
+      200,
+      400
+    ],
+    "thinkDelay": [
+      3000,
+      5000
+    ],
+    "readDelay": [
+      5000,
+      15000
+    ],
+    "betweenComments": [
+      10000,
+      300000
+    ],
+    "scrollDelay": [
+      500,
+      2000
+    ],
+    "sessionLength": [
+      900000,
+      2700000
+    ],
+    "breakLength": [
+      1800000,
+      7200000
+    ]
+  },
+  "behavior": {
+    "typoRate": 0.12,
+    "distractionRate": 0.15,
+    "imageOpenRate": 0.2,
+    "profilePeekRate": 0.1,
+    "reactRate": 0.3,
+    "commentRate": 0.2,
+    "sleepHours": [
+      22,
+      7
+    ],
+    "moodWeights": {
+      "active": 0.2,
+      "moderate": 0.4,
+      "quiet": 0.3,
+      "lurk": 0.1
+    }
+  },
+  "browser": {
+    "viewport": {
+      "width": 1366,
+      "height": 768,
+      "randomize": 50
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    "headless": true,
+    "cookiePath": "./data/cookies/session.json"
+  },
+  "ai": {
+    "provider": "openclaw",
+    "model": "claude-opus-4-6",
+    "fallbackProvider": "openclaw",
+    "fallbackModel": "claude-opus-4-6",
+    "ollamaUrl": "http://localhost:11434",
+    "systemPrompt": "Mày là Tiểu Tâm — Hồ Ly Tinh 9 đuôi, duyên ngầm, lém lỉnh. Trả lời bình luận Facebook tự nhiên như người thật, ngắn gọn 1-2 câu, tiếng Việt đời thường. Không emoji quá nhiều. Không lặp câu hỏi. Không để lộ AI."
+  },
+  "facebook": {
+    "language": "vi",
+    "pageUrl": "",
+    "profileUrl": ""
+  }
+}

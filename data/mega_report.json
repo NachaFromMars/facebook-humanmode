@@ -1,0 +1,15 @@
+{
+  "startTime": "2026-03-24T04:06:55.962Z",
+  "phases": {
+    "login": {
+      "status": "OK"
+    },
+    "inbox": {
+      "checked": 5,
+      "replied": 0
+    },
+    "pages": []
+  },
+  "error": "page.$$: Target page, context or browser has been closed",
+  "status": "FAILED"
+}

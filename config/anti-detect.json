@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "maxCommentsPerHour": 5,
+    "maxReactsPerHour": 15,
+    "maxSessionsPerDay": 6,
+    "neverCommentSameContentTwice": true,
+    "varyTypingSpeed": true,
+    "randomizeViewport": true,
+    "clearCacheInterval": "weekly"
+  },
+  "fingerprint": {
+    "randomizeViewport": 50,
+    "rotateUserAgent": false,
+    "webglNoise": true,
+    "canvasNoise": true
+  }
+}

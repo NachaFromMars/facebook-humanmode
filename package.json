@@ -1,0 +1,43 @@
+{
+  "name": "facebook-humanmode",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Facebook HumanMode V1.0 - Nacharium. Human-like Facebook automation with AI-powered interactions.",
+  "author": "Nacharium <nang@nacharium.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nacharium/facebook-humanmode"
+  },
+  "keywords": [
+    "facebook",
+    "automation",
+    "playwright",
+    "humanmode",
+    "anti-detection",
+    "ai",
+    "ollama",
+    "nacharium"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "tsx scripts/fb_orchestrator.ts",
+    "login": "tsx scripts/fb_core.ts login",
+    "post": "tsx scripts/fb_core.ts post",
+    "comment": "tsx scripts/fb_core.ts comment",
+    "feed": "tsx scripts/fb_core.ts feed",
+    "scan": "tsx scripts/fb_scan_v2.ts",
+    "build": "tsc",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "playwright": "^1.58.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0"
+  }
+}

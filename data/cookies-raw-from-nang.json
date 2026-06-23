@@ -1,0 +1,92 @@
+[
+ {
+ "domain": ".facebook.com",
+ "expirationDate": 1808850844.195256,
+ "hostOnly": false,
+ "httpOnly": true,
+ "name": "datr",
+ "path": "/",
+ "sameSite": "no_restriction",
+ "secure": true,
+ "session": false,
+ "storeId": null,
+ "value": "m4fBaWVkITCS7YM42BkMze8k"
+ },
+ {
+ "domain": ".facebook.com",
+ "expirationDate": 1782100291.409747,
+ "hostOnly": false,
+ "httpOnly": true,
+ "name": "fr",
+ "path": "/",
+ "sameSite": "no_restriction",
+ "secure": true,
+ "session": false,
+ "storeId": null,
+ "value": "18DIjrKhssjiuCoX5.AWcCKWQMIHyhnCqauu4kcM0Y5EYCQGDUv1h00KIvOch4ug_vY9E.Bpwgf6..AAA.0.0.BpwgpC.AWfdmGpIci0lgENkzHiBbWYmjzU"
+ },
+ {
+ "domain": ".facebook.com",
+ "expirationDate": 1805859707.89077,
+ "hostOnly": false,
+ "httpOnly": true,
+ "name": "xs",
+ "path": "/",
+ "sameSite": "no_restriction",
+ "secure": true,
+ "session": false,
+ "storeId": null,
+ "value": "39%3AG-0jvsI6b-jEgA%3A2%3A1774290873%3A-1%3A-1%3A%3AAcyVNgFV0dRnKkD86QGdnKuq_VbBCosfvJ5bVjSf7gA"
+ },
+ {
+ "domain": ".facebook.com",
+ "expirationDate": 1805859707.890592,
+ "hostOnly": false,
+ "httpOnly": false,
+ "name": "c_user",
+ "path": "/",
+ "sameSite": "no_restriction",
+ "secure": true,
+ "session": false,
+ "storeId": null,
+ "value": "61588560594683"
+ },
+ {
+ "domain": ".facebook.com",
+ "hostOnly": false,
+ "httpOnly": false,
+ "name": "presence",
+ "path": "/",
+ "sameSite": null,
+ "secure": true,
+ "session": true,
+ "storeId": null,
+ "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1774324325667%2C%22v%22%3A1%7D"
+ },
+ {
+ "domain": ".facebook.com",
+ "expirationDate": 1808850875.312842,
+ "hostOnly": false,
+ "httpOnly": true,
+ "name": "sb",
+ "path": "/",
+ "sameSite": "no_restriction",
+ "secure": true,
+ "session": false,
+ "storeId": null,
+ "value": "oIfBaTlhGHyz2rn7qZn1tEEj"
+ },
+ {
+ "domain": ".facebook.com",
+ "expirationDate": 1774929125,
+ "hostOnly": false,
+ "httpOnly": false,
+ "name": "wd",
+ "path": "/",
+ "sameSite": "lax",
+ "secure": true,
+ "session": false,
+ "storeId": null,
+ "value": "1904x1064"
+ }
+]
